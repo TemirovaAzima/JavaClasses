@@ -9,6 +9,7 @@ void main(){
     Fruits fruit = new Fruits("banana");
     fruit.show();
     System.out.println();
+
     // 3
     Square square = new Square(3);
     square.show();

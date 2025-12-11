@@ -11,7 +11,6 @@ public class Donkey {
 
     public void addBalloon(Balloon balloon){
         Balloon[] newArray = new Balloon[balloons.length+1];
-
         for(int i = 0; i < balloons.length ; i++){
             newArray[i] = balloons[i];
         }
